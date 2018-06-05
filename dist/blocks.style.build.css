@@ -1,0 +1,40 @@
+/**
+ * #.# Common SCSS
+ *
+ * Can include things like variables and mixins
+ * that are used across the project.
+*/
+/**
+ * #.# Styles
+ *
+ * CSS for both Frontend+Backend.
+ */
+.wp-block-cgb-block-floating-caption-block {
+  position: relative;
+  margin: 0 auto 2em auto;
+  max-width: 100%;
+  display: table; }
+  .wp-block-cgb-block-floating-caption-block .fcb-bg-block {
+    width: 100%; }
+    @media screen and (min-width: 600px) {
+      .wp-block-cgb-block-floating-caption-block .fcb-bg-block {
+        width: 60%; } }
+  .wp-block-cgb-block-floating-caption-block .fcb-caption {
+    width: 80%;
+    padding: 1rem;
+    -webkit-box-shadow: 2px 2px 6px #888;
+            box-shadow: 2px 2px 6px #888;
+    margin-top: -10%;
+    position: relative; }
+    @media screen and (min-width: 600px) {
+      .wp-block-cgb-block-floating-caption-block .fcb-caption {
+        width: 50%;
+        margin-top: -20%; } }
+  .wp-block-cgb-block-floating-caption-block .img-right .fcb-caption {
+    margin-right: auto; }
+  .wp-block-cgb-block-floating-caption-block .img-right .fcb-bg-block, .wp-block-cgb-block-floating-caption-block .img-right .fcb-bg-block-no-image {
+    margin-left: auto; }
+  .wp-block-cgb-block-floating-caption-block .img-left .fcb-caption {
+    margin-left: auto; }
+  .wp-block-cgb-block-floating-caption-block .img-left .fcb-bg-block, .wp-block-cgb-block-floating-caption-block .img-left .fcb-bg-block-no-image {
+    margin-right: auto; }
